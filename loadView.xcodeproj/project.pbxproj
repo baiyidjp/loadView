@@ -13,6 +13,9 @@
 		F5C4EF621E24BFFD0092CD3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C4EF601E24BFFC0092CD3C /* Main.storyboard */; };
 		F5C4EF641E24BFFD0092CD3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C4EF631E24BFFD0092CD3C /* Assets.xcassets */; };
 		F5C4EF671E24BFFD0092CD3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C4EF651E24BFFD0092CD3C /* LaunchScreen.storyboard */; };
+		F5C4EF711E24C02D0092CD3C /* JPLoadviewHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C4EF701E24C02D0092CD3C /* JPLoadviewHUD.m */; };
+		F5C4EF741E24C1C70092CD3C /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C4EF721E24C1C70092CD3C /* hello.png */; };
+		F5C4EF751E24C1C70092CD3C /* hello1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C4EF731E24C1C70092CD3C /* hello1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		F5C4EF631E24BFFD0092CD3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C4EF661E24BFFD0092CD3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5C4EF681E24BFFD0092CD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C4EF6F1E24C02D0092CD3C /* JPLoadviewHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoadviewHUD.h; sourceTree = "<group>"; };
+		F5C4EF701E24C02D0092CD3C /* JPLoadviewHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoadviewHUD.m; sourceTree = "<group>"; };
+		F5C4EF721E24C1C70092CD3C /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
+		F5C4EF731E24C1C70092CD3C /* hello1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 		F5C4EF561E24BFFC0092CD3C /* loadView */ = {
 			isa = PBXGroup;
 			children = (
+				F5C4EF6E1E24C0150092CD3C /* loadView */,
 				F5C4EF5A1E24BFFC0092CD3C /* AppDelegate.h */,
 				F5C4EF5B1E24BFFC0092CD3C /* AppDelegate.m */,
 				F5C4EF5D1E24BFFC0092CD3C /* ViewController.h */,
@@ -77,6 +85,17 @@
 				F5C4EF581E24BFFC0092CD3C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5C4EF6E1E24C0150092CD3C /* loadView */ = {
+			isa = PBXGroup;
+			children = (
+				F5C4EF721E24C1C70092CD3C /* hello.png */,
+				F5C4EF731E24C1C70092CD3C /* hello1.png */,
+				F5C4EF6F1E24C02D0092CD3C /* JPLoadviewHUD.h */,
+				F5C4EF701E24C02D0092CD3C /* JPLoadviewHUD.m */,
+			);
+			path = loadView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +156,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C4EF741E24C1C70092CD3C /* hello.png in Resources */,
 				F5C4EF671E24BFFD0092CD3C /* LaunchScreen.storyboard in Resources */,
+				F5C4EF751E24C1C70092CD3C /* hello1.png in Resources */,
 				F5C4EF641E24BFFD0092CD3C /* Assets.xcassets in Resources */,
 				F5C4EF621E24BFFD0092CD3C /* Main.storyboard in Resources */,
 			);
@@ -150,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C4EF711E24C02D0092CD3C /* JPLoadviewHUD.m in Sources */,
 				F5C4EF5F1E24BFFC0092CD3C /* ViewController.m in Sources */,
 				F5C4EF5C1E24BFFC0092CD3C /* AppDelegate.m in Sources */,
 				F5C4EF591E24BFFC0092CD3C /* main.m in Sources */,

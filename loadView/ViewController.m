@@ -7,16 +7,30 @@
 //
 
 #import "ViewController.h"
+#import "JPLoadviewHUD.h"
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIView *backView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+
+}
+- (IBAction)show:(id)sender {
+    
+    [JPLoadviewHUD showLoadHUDWithView:self.backView];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [JPLoadviewHUD dismissLoadHUD];
+    });
+}
+- (IBAction)dismiss:(id)sender {
+    [JPLoadviewHUD dismissLoadHUD];
 }
 
 
