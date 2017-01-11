@@ -8,7 +8,7 @@
 
 #import "JPLoadviewHUD.h"
 
-static CGFloat imageW = 200;
+static CGFloat imageW = 50;
 
 @interface JPLoadviewHUD ()
 /** timer */
